@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C2CA2851-92E1-465E-AB55-5317079B88AB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Algorithms</RootNamespace>
+    <AssemblyName>Algorithms</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v16.1" />
+    <Reference Include="DevExpress.Data.v16.1" />
+    <Reference Include="DevExpress.Office.v16.1.Core, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v16.1.Core, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v16.1.Drawing, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v16.1.Core, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v16.1" />
+    <Reference Include="DevExpress.XtraBars.v16.1" />
+    <Reference Include="DevExpress.XtraEditors.v16.1" />
+    <Reference Include="DevExpress.XtraGrid.v16.1, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraLayout.v16.1" />
+    <Reference Include="DevExpress.Printing.v16.1.Core" />
+    <Reference Include="DevExpress.XtraNavBar.v16.1, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v16.1, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v16.1, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BruteForceClosestPair.cs" />
+    <Compile Include="BruteForceClosestPairForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BruteForceClosestPairForm.Designer.cs">
+      <DependentUpon>BruteForceClosestPairForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BruteForceStringMatch.cs" />
+    <Compile Include="BruteForceStringMatchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BruteForceStringMatchForm.Designer.cs">
+      <DependentUpon>BruteForceStringMatchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CountingSunday.cs" />
+    <Compile Include="CountingSundayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CountingSundayForm.Designer.cs">
+      <DependentUpon>CountingSundayForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fibonacci.cs" />
+    <Compile Include="FibonacciForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FibonacciForm.Designer.cs">
+      <DependentUpon>FibonacciForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GDC.cs" />
+    <Compile Include="GDCForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GDCForm.Designer.cs">
+      <DependentUpon>GDCForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Horner.cs" />
+    <Compile Include="HornerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HornerForm.Designer.cs">
+      <DependentUpon>HornerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LargestProductInASeries.cs" />
+    <Compile Include="LargestProductInASeriesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LargestProductInASeriesForm.Designer.cs">
+      <DependentUpon>LargestProductInASeriesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MergeSort.cs" />
+    <Compile Include="PresortElementUniqueness.cs" />
+    <Compile Include="PresortElementUniquenessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresortElementUniquenessForm.Designer.cs">
+      <DependentUpon>PresortElementUniquenessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SelectionSort.cs" />
+    <Compile Include="SelectionSortForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectionSortForm.Designer.cs">
+      <DependentUpon>SelectionSortForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sum.cs" />
+    <Compile Include="SumForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SumForm.Designer.cs">
+      <DependentUpon>SumForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BruteForceClosestPairForm.resx">
+      <DependentUpon>BruteForceClosestPairForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BruteForceStringMatchForm.resx">
+      <DependentUpon>BruteForceStringMatchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CountingSundayForm.resx">
+      <DependentUpon>CountingSundayForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FibonacciForm.resx">
+      <DependentUpon>FibonacciForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GDCForm.resx">
+      <DependentUpon>GDCForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HornerForm.resx">
+      <DependentUpon>HornerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LargestProductInASeriesForm.resx">
+      <DependentUpon>LargestProductInASeriesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresortElementUniquenessForm.resx">
+      <DependentUpon>PresortElementUniquenessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SelectionSortForm.resx">
+      <DependentUpon>SelectionSortForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SumForm.resx">
+      <DependentUpon>SumForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Algorithmia Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back Arrow 2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
